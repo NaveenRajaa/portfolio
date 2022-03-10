@@ -1,0 +1,68 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1f2235;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.m-heading{
+    font-family: 'Baloo Tamma 2', cursive;
+font-family: 'Roboto Slab', serif;
+}
+.navigation-link{
+    border: 2px solid transparent;
+}
+.navigation-link:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.5s ease;
+}
+.main-container{
+    min-height: 100vh;
+    /* padding-top: 5rem; */
+}
+.main-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-row img{
+    width: auto;
+    height: 56.9rem;
+}
+.main-row h1{
+    font-size: 5rem;
+}
+#About{
+    background: #313552;
+    border-radius: 0.5rem;
+}
+.card{
+    border-bottom: 8px solid #f5ba09;
+}
+#Contact{
+    background-color: #313552;
+}
+.media_link{
+    padding:1rem;
+    max-width: 1rem;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5 rem;
+}
+
+.skills-bar{
+    width: 600px;
+    background-color: whitesmoke;
+    
+    ;
+}
+.skills-bar .bar{
+    margin: 20px 0;;
+}
+.skills-bar .bar:first-child{
+    margin-top: 0px;
+}
+.skills-bar .bar .info span{
+  font-size: 17px;
+  font-weight:  500;
+}
